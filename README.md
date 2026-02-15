@@ -68,11 +68,9 @@ AWSInfrastructureTests/
 aws_access_key_id = YOUR_KEY
 aws_secret_access_key = YOUR_SECRET
 
+Update region in Config/TestConfiguration.cs if needed
 
-2. Update region in `Config/TestConfiguration.cs` if needed
-
-### Run Tests
-```bash
+Run Tests
 # All tests
 dotnet test
 
