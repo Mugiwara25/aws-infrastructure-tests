@@ -18,19 +18,19 @@ A professional automation testing suite for AWS infrastructure services using C#
 
 ## 📁 Project Structure
 AWSInfrastructureTests/
-├── AWSInfraTests/
-│   ├── Base/
-│   │   └── TestBase.cs              # Base test class with AWS credentials
-│   ├── Config/
-│   │   └── TestConfiguration.cs     # Test settings and region config
-│   ├── Services/
-│   │   ├── S3Service.cs             # S3 operations wrapper
-│   │   └── EC2Service.cs            # EC2 operations wrapper
-│   ├── Tests/
-│   │   ├── S3Tests.cs               # S3 bucket lifecycle tests
-│   │   └── EC2Tests.cs              # EC2 instance validation tests
-│   └── AWSInfraTests.csproj
-└── README.md
+├── README.md
+└── AWSInfraTests/
+├── Base/
+│   └── TestBase.cs              # Base test class with AWS credentials
+├── Config/
+│   └── TestConfiguration.cs     # Test settings and region config
+├── Services/
+│   ├── S3Service.cs             # S3 operations wrapper
+│   └── EC2Service.cs            # EC2 operations wrapper
+├── Tests/
+│   ├── S3Tests.cs               # S3 bucket lifecycle tests
+│   └── EC2Tests.cs              # EC2 instance validation tests
+└── AWSInfraTests.csproj
 
 
 ## 🎯 Test Categories
@@ -95,9 +95,8 @@ Test summary: total: 5, failed: 0, succeeded: 5, skipped: 0
 
 👨‍💻 Author
 Pranav Tamore
-Email: pranavtamore25@gmail.com
-LinkedIn: linkedin.com/in/pranav-tamore-84a96b21b
-GitHub: github.com/Mugiwara25
-
+📧 Email: pranavtamore25@gmail.com
+💼 LinkedIn: linkedin.com/in/pranav-tamore-84a96b21b
+🐙 GitHub: github.com/Mugiwara25
 📄 License
 This project is open source and available for educational purposes.
